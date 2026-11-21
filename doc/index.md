@@ -23,16 +23,16 @@ Reinforcement learning is in \ref bitrl_main "bitrl", which builds on bitsim and
 
 | Area | What bitsim has |
 | ---- | --------------- |
-| Geometry and maths | points, lines, frames, rotation matrices and Euler angles, probability distributions |
+| Geometry and maths | points, lines, frames, rotation matrices and Euler angles, probability distributions, a quadratic programming solver |
 | Kinematics | planar and spatial arms with Denavit-Hartenberg parameters, forward and inverse kinematics, the kinematics of a differential drive |
 | Trajectories | point to point motion with time scaling, waypoint trajectories |
 | Motion planning | A* on an occupancy grid, rapidly exploring random trees |
-| Dynamics | differential drive and bicycle models, a quadrotor, a fixed wing aircraft |
+| Dynamics | differential drive and bicycle models, a cart-pole, a quadrotor, a fixed wing aircraft |
 | Sensors | ultrasonic, infrared and IMU sensors, a downward camera, a camera stream; simulated, or real over MQTT. See \ref bitsim_sensors_guide |
 | Actuators | DC gear motors with encoders, brushless DC motors; simulated, or real on a board. See \ref bitsim_actuators_guide |
 | Robots | a differential drive robot in Chrono, built from a robot file, and the vehicle models. See \ref bitsim_robots_guide |
 | Estimation | Kalman and extended Kalman filters, wheel odometry, sensor fusion |
-| Control | PID controllers, line following, a quadrotor flight controller, a fixed wing autopilot |
+| Control | PID controllers, LQR (discrete and continuous Riccati equations), model predictive control with bounds on the inputs and the states, line following, a quadrotor flight controller, a fixed wing autopilot |
 | Simulation | rigid bodies and robots in Project Chrono, drawn with Irrlicht |
 | Hardware in the loop | Arduino boards over USB and Wi-Fi, MQTT sensors and motors, a Raspberry Pi camera |
 
