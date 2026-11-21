@@ -32,7 +32,7 @@ Reinforcement learning is in \ref bitrl_main "bitrl", which builds on bitsim and
 | Actuators | DC gear motors with encoders, brushless DC motors; simulated, or real on a board. See \ref bitsim_actuators_guide |
 | Robots | a differential drive robot in Chrono, built from a robot file, and the vehicle models. See \ref bitsim_robots_guide |
 | Estimation | Kalman and extended Kalman filters, wheel odometry, sensor fusion |
-| Control | PID controllers, LQR (discrete and continuous Riccati equations), model predictive control with bounds on the inputs and the states, line following, a quadrotor flight controller, a fixed wing autopilot |
+| Control | PID controllers, LQR (discrete and continuous Riccati equations), model predictive control with bounds on the inputs and the states, line following, a quadrotor flight controller, a fixed wing autopilot. LQR and MPC examples: \ref bitsim_example_cart_pole_lqr_mpc "a cart-pole", \ref bitsim_example_quadrotor_lqr "a quadrotor", \ref bitsim_example_diff_drive_mpc "a differential drive robot", \ref bitsim_example_fixed_wing_lqr_mpc "a fixed wing aircraft" |
 | Simulation | rigid bodies and robots in Project Chrono, drawn with Irrlicht |
 | Hardware in the loop | Arduino boards over USB and Wi-Fi, MQTT sensors and motors, a Raspberry Pi camera |
 
