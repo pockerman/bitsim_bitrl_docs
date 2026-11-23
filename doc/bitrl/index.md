@@ -23,6 +23,7 @@ C++ API of PyTorch. The source is on <a href="https://github.com/pockerman/bitrl
 | Policy gradients | REINFORCE, with and without a baseline, A2C, PPO |
 | Policies | epsilon-greedy with decay, soft-max, greedy and uniform tabular policies |
 | Tools | experience replay buffers, trainers, policies saved to and loaded from files, Tensorboard logging, PyTorch distributions and optimizers |
+| Parallel and distributed | many copies of an environment, PPO from several episodes at once, every agent in a process of its own, PPO over several processes or machines. See \ref bitrl_parallel_guide |
 
 ## Gymnasium environments
 

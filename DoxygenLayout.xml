@@ -24,10 +24,12 @@
     <tab type="user" visible="yes" url="@ref bitsim_sensors_guide" title="Sensors"/>
     <tab type="user" visible="yes" url="@ref bitsim_actuators_guide" title="Actuators"/>
     <tab type="user" visible="yes" url="@ref bitsim_robots_guide" title="Robots"/>
+    <tab type="user" visible="yes" url="@ref bitsim_parallel_guide" title="Parallel computing"/>
     <tab type="usergroup" visible="yes" url="@ref bitrl_main" title="bitrl">
       <tab type="user" visible="yes" url="@ref bitrl_main" title="About bitrl"/>
       <tab type="user" visible="yes" url="@ref bitrl_install" title="Installation"/>
       <tab type="user" visible="yes" url="@ref bitrl_examples" title="Examples"/>
+      <tab type="user" visible="yes" url="@ref bitrl_parallel_guide" title="Parallel and distributed training"/>
       <tab type="user" visible="yes" url="https://github.com/pockerman/bitrl" title="bitrl on GitHub"/>
     </tab>
     <tab type="usergroup" visible="yes" title="API">

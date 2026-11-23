@@ -35,6 +35,7 @@ Reinforcement learning is in \ref bitrl_main "bitrl", which builds on bitsim and
 | Control | PID controllers, LQR (discrete and continuous Riccati equations), model predictive control with bounds on the inputs and the states, line following, a quadrotor flight controller, a fixed wing autopilot. LQR and MPC examples: \ref bitsim_example_cart_pole_lqr_mpc "a cart-pole", \ref bitsim_example_quadrotor_lqr "a quadrotor", \ref bitsim_example_diff_drive_mpc "a differential drive robot", \ref bitsim_example_fixed_wing_lqr_mpc "a fixed wing aircraft" |
 | Simulation | rigid bodies and robots in Project Chrono, drawn with Irrlicht |
 | Hardware in the loop | Arduino boards over USB and Wi-Fi, MQTT sensors and motors, a Raspberry Pi camera |
+| Parallel computing | a thread pool, parallel loops, seeds per task, a queue between threads; distributed simulation over MQTT, in lockstep or keeping pace with real robots. See \ref bitsim_parallel_guide |
 
 ## Where to start
 
@@ -43,6 +44,8 @@ Reinforcement learning is in \ref bitrl_main "bitrl", which builds on bitsim and
   real hardware, and each has a page that explains it. The first is \ref bitsim_example_basic_types.
 - \ref bitsim_sensors_guide, \ref bitsim_actuators_guide and \ref bitsim_robots_guide describe the parts a
   robot is made of.
+- \ref bitsim_parallel_guide runs work on all the cores, and splits a simulation over processes and
+  machines.
 - \ref build_documentation builds this site on your machine.
 
 ## bitrl
